@@ -1,0 +1,80 @@
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.container > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+div > img {
+  position: absolute;
+
+}
+.friesFly {
+  margin-top: -110px;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+  animation: fly 5s linear 0s infinite normal;
+}
+.fly {
+  height: 100px;
+  width: 100px;
+  left: 100px;
+  top: -100px;
+  animation: intoPlanet 4.5s linear 0s infinite normal;
+}
+
+@keyframes fly {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.mc {
+  height: 300px;
+  width: 200px;
+  left: 50px;
+  top: -100px;
+  animation: intoPlanet 4.5s linear 0s infinite normal;
+
+}
+@keyframes intomcDonalds {
+  0% {
+    height: 75px;
+    width: 97.5px;
+    top: -60px;
+  }
+  25% {
+    height: 50px;
+    width: 65px;
+    top: 30px;
+  }
+  50% {
+    height: 25px;
+    width: 32.5px;
+    top: 90px;
+  }
+  75% {
+    height: 2px;
+    width: 3px;
+    top: 140px;
+  }
+  100% {
+    height: 100px;
+    width: 130px;
+    top: -100px;
+  }
+}
